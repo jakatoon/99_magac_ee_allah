@@ -4,49 +4,187 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - 99 Names of Allah</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     <style>
-        body { font-family: sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; }
-        h1, h2 { color: #333; }
-        strong { color: #000; }
+        /* Reset and global styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.7;
+            background: #f5f7fa;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 30px 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #1a1a1a;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.6rem;
+            color: #1f3b73;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        h2 i {
+            margin-right: 10px;
+            color: #f59e0b; /* golden accent */
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        strong {
+            color: #1f3b73;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+
+        a {
+            color: #1f3b73;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #f59e0b;
+        }
+
+        /* Section icon circles */
+        .icon-circle {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 35px;
+            height: 35px;
+            background: #f59e0b;
+            color: #fff;
+            border-radius: 50%;
+            margin-right: 10px;
+            font-size: 1rem;
+        }
+
+        /* Contact box */
+        .contact {
+            background: #eef2ff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .contact i {
+            font-size: 2rem;
+            color: #6366f1;
+            margin-right: 15px;
+        }
+
+        /* Footer note */
+        .footer-note {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #999;
+            margin-top: 30px;
+        }
+
+        /* Responsive */
+        @media(max-width: 600px){
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.4rem;
+            }
+        }
+
     </style>
 </head>
 <body>
-    <h1>Privacy Policy for "99 Names of Allah"</h1>
-    <p><strong>Last updated:</strong> September 19, 2025</p>
 
-    <p>This privacy policy explains how information is handled in our mobile application, "99 Names of Allah".</p>
+    <div class="container">
+        <h1><i class="fas fa-shield-alt"></i> Privacy Policy</h1>
+        <p><strong>Last updated:</strong> September 19, 2025</p>
 
-    <h2>Our Commitment to Privacy: We Collect No Personal Data</h2>
-    <p><strong>The "99 Names of Allah" app does not collect, store, or share any personal information from its users.</strong> We do not ask for your name, email, location, or any other personally identifiable information. Your use of this app is anonymous.</p>
+        <p>This privacy policy explains how information is handled in our mobile application, "<strong>99 Names of Allah</strong>".</p>
 
-    <h2>Data Handled by Third-Party Services</h2>
-    <p>To be fully transparent and to comply with Google Play policies, we must inform you about the anonymous data handled by the third-party services that our app uses to function and remain free.</p>
-    
-    <p>The services we use are:</p>
-    <ul>
-        <li><strong>Google Play Services</strong></li>
-        <li><strong>Google AdMob</strong></li>
-    </ul>
+        <h2><i class="fas fa-user-secret"></i> Our Commitment to Privacy</h2>
+        <p><strong>The "99 Names of Allah" app does not collect, store, or share any personal information from its users.</strong> We do not ask for your name, email, location, or any other personally identifiable information. Your use of this app is completely anonymous.</p>
 
-    <h3>Advertising (Google AdMob)</h3>
-    <p>To keep the app free for everyone, we show ads through Google AdMob. Google's ad service uses your device's unique, resettable "Advertising ID" to show you more relevant ads. We, the developers of this app, do not have access to this ID or any information linked to it. This process is handled entirely by Google.</p>
-    <p>For more information on how Google uses data for advertising, please visit <a href="https://policies.google.com/technologies/ads">Google's ad policy</a>.</p>
-    
-    <h3>Analytics and Crash Reporting (Google Play Services)</h3>
-    <p>To ensure the app is stable and to fix bugs, Google Play Services may automatically collect anonymous data if the app crashes. This "Log Data" includes non-personal information like your device type, operating system version, and the time of the error. This information is not linked to your identity and is only used to improve the app for all users.</p>
+        <h2><i class="fas fa-database"></i> Data Handled by Third-Party Services</h2>
+        <p>To be fully transparent and comply with Google Play policies, we must inform you about the anonymous data handled by third-party services used to run and maintain the app.</p>
+        
+        <ul>
+            <li><i class="fas fa-play-circle"></i> <strong>Google Play Services</strong></li>
+            <li><i class="fas fa-ad"></i> <strong>Google AdMob</strong></li>
+        </ul>
 
-    <h2>Security</h2>
-    <p>We are committed to ensuring that our app is secure. However, as we do not collect your personal data, the primary security of your data with third-party services lies with them. We trust Google's robust security measures to protect the anonymous data they handle.</p>
+        <h2><i class="fas fa-ad"></i> Advertising (Google AdMob)</h2>
+        <p>To keep the app free, we display ads via Google AdMob. Google's ad service uses your device's unique, resettable "Advertising ID" to show relevant ads. We do not access this ID or any data linked to it. Google handles this process entirely.</p>
+        <p>More info: <a href="https://policies.google.com/technologies/ads" target="_blank">Google's ad policy</a>.</p>
 
-    <h2>Children’s Privacy</h2>
-    <p>Our service is not directed at anyone under the age of 13. We do not knowingly collect any information from children.</p>
+        <h2><i class="fas fa-chart-line"></i> Analytics & Crash Reporting (Google Play Services)</h2>
+        <p>Google Play Services may collect anonymous data in case the app crashes, like device type, OS version, and time of the error. This data is never linked to your identity and is used solely to improve the app.</p>
 
-    <h2>Changes to This Privacy Policy</h2>
-    <p>We may update our Privacy Policy from time to time. You are advised to review this page periodically for any changes. Any changes are effective immediately after they are posted on this page.</p>
+        <h2><i class="fas fa-lock"></i> Security</h2>
+        <p>We ensure app security. Since we do not collect personal data, your security with third-party services depends on them. We trust Google's strong security measures for protecting anonymous data.</p>
 
-    <h2>Contact Us</h2>
-    <p>If you have any questions or suggestions about our Privacy Policy, please contact us:</p>
-    <p><strong>Email:</strong> jakatoon.dp@gmail.com</p>
+        <h2><i class="fas fa-child"></i> Children’s Privacy</h2>
+        <p>Our service is not directed at anyone under 13. We do not knowingly collect information from children.</p>
+
+        <h2><i class="fas fa-edit"></i> Changes to This Privacy Policy</h2>
+        <p>We may update our Privacy Policy occasionally. Review this page periodically. Changes take effect immediately after posting.</p>
+
+        <h2><i class="fas fa-envelope"></i> Contact Us</h2>
+        <div class="contact">
+            <i class="fas fa-envelope-open-text"></i>
+            <p>If you have questions or suggestions about our Privacy Policy, contact us at: <strong>jakatoon.dp@gmail.com</strong></p>
+        </div>
+
+        <p class="footer-note">© 2025 99 Names of Allah App. All rights reserved.</p>
+    </div>
 
 </body>
 </html>
